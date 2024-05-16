@@ -1,6 +1,6 @@
 # Creoox Traefik Forward-Auth
 
-Inspired by [traefik-forward-auth](https://github.com/thomseddon/traefik-forward-auth) by [thomseddon](https://github.com/thomseddon) (MIT License).
+Inspired by [traefik-forward-auth](https://github.com/thomseddon/traefik-forward-auth) by [thomseddon](https://github.com/thomseddon) (MIT License) and [Creoox](https://github.com/Creoox/cx-traefik-forward-auth) by [CreooxTech](https://github.com/CreooxTech).
 
 _cx-traefik-forward-auth_ is a standalone authorization middleware for [Traefik](https://traefik.io/traefik/) that provides OIDC authentication and/or opaque token validation (introspection) for the traefik reverse proxy. It's main goal is to work as authentication feature in API Gateway solution that Traefik provides. At the current state of implementation, the authentication is based on reading the **Authorization** header from the request and verifying it.
 
@@ -37,6 +37,7 @@ Currently tested providers:
 | [SAP Commerce](https://help.sap.com/docs/SAP_COMMERCE) | ?       | ✅     |               |
 | Google                                                 | ?       | ✅     | Planned       |
 | GitHub                                                 |         | ✅     |               |
+| Okta                                                   | ?       | ✅     |               |
 
 <br/>
 
